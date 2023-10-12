@@ -1,0 +1,358 @@
+.service{
+  font-family:poppins;
+  letter-spacing: 4px;
+  color: white;
+  font-size: 32px;
+  text-align:left;
+  margin: 0px;
+  margin-left: 24px;
+  margin-top: 80px;
+}
+.serviceContent{
+  color: white;
+  margin-left: 24px;
+  font-family: poppins;
+  margin:0px;
+  margin-left:24px ;
+}
+
+/*---------------*/
+.grid-container{
+  display: grid;
+  grid-template-columns:1fr;
+  row-gap: 24px;
+  
+  
+}
+.service1{
+  background-color: rgba(0, 0, 0, 0.39);
+  height: 400px;
+  position: relative;
+  display: grid;
+  grid-template-columns: 1.5fr 2fr;
+ 
+}
+            .s1Container1{
+              height: 400px;
+              
+              position: relative;
+            }
+            .s1Container1 img{
+              
+              width: 100%;
+              height: 100%;
+              object-fit: cover;
+              z-index: 7;
+
+            }
+            .overlay1{
+              background-color: rgb(0, 0, 0);
+              width: 100%;
+              height: 100%;
+              opacity: 50%;
+              z-index: 9;
+              position: absolute;
+              
+              
+            }
+            .s1container2{
+              position:relative;
+            }
+            .s1container2 button{
+              position: absolute;
+              top: 50%;
+              left: 12%;
+              color: white;
+              background-color: rgb(0, 112, 163);
+              border: none;
+              padding: 1% 2% 1% 2% ;
+              font-size: 16px;
+              border-radius: 10px;
+              cursor: pointer;
+              
+            }
+
+            .title1{
+              
+              position: absolute;
+              font-family: poppins;
+              margin: 0;
+              font-size: 32px;
+              font-weight: 900;
+              color: white;
+              z-index: 10;
+              
+            }
+            .title1-div{
+              align-items: center;
+              justify-content: center;
+              display: flex;
+              width: 100%;
+              height: 100%;
+              
+            }
+            .desc1{
+              color: rgb(219, 219, 219);
+              font-family: poppins;
+              font-size: 15px;
+              position: absolute;
+              top: 32%;
+              left: 12%;
+              margin: 0;
+              margin-right: 48px;
+
+            }
+            .line1{
+              border-left: 3px solid rgba(255, 255, 255, 0.342);
+              position: absolute;
+              left: 4%;
+              top: 12%;
+              bottom: 12%;
+
+            }
+
+
+
+.service2{
+  background-color: rgba(0, 0, 0, 0.39);
+  height: 400px;
+  display: grid;
+  grid-template-columns: 2fr 1.5fr;
+  position: relative;
+
+}
+            .s2Container1{
+            height: 400px;
+            position: relative;
+            
+
+            }
+            .overlay2{
+              background-color: rgb(0, 0, 0);
+              width: 100%;
+              height: 100%;
+              opacity: 50%;
+              z-index: 9;
+              position: absolute;
+            }
+            .s2Container1 img{
+              width: 100%;
+              height: 100%;
+              object-fit: cover;
+              z-index: 7;
+            }
+            .line2{
+              border-left: 3px solid rgba(255, 255, 255, 0.342);
+              position: absolute;
+              right: 4%;
+              top: 12%;
+              bottom: 12%;
+
+            }
+            .s2container2{
+              position: relative;
+            }
+            .s2container2 button{
+              position: absolute;
+              top: 50%;
+              right: 12%;
+              color: white;
+              background-color: rgb(0, 112, 163);
+              border: none;
+              padding: 5px 10px 5px 10px;
+              border-radius: 10px;
+              cursor: pointer;
+              padding: 1% 2% 1% 2% ;
+              font-size: 16px;
+            }
+            .title2{
+              position: absolute;
+              font-family: poppins;
+              margin: 0;
+              font-size: 32px;
+              font-weight: 900;
+              color: white;
+              z-index: 10;
+              
+            }
+            .title2-div{
+              align-items: center;
+              justify-content: center;
+              display: flex;
+              width: 100%;
+              height: 100%;
+
+            }
+            .desc2{
+              color: rgb(219, 219, 219);
+              font-family: poppins;
+              font-size: 15px;
+              position: absolute;
+              top: 32%;
+              right: 12%;
+              margin: 0;
+              margin-left: 48px;
+            }
+.service3{
+  background-color: rgba(0, 0, 0, 0.39);
+  height: 400px;
+  display: grid;
+  grid-template-columns: 1.5fr 2fr;
+  position: relative;
+  
+}
+          .overlay3{
+            background-color: rgb(0, 0, 0);
+            width: 100%;
+            height: 100%;
+            opacity: 50%;
+            z-index: 7;
+            position: absolute;
+          }
+          .s3container1{
+            width: 100%;
+            height: 100%;
+            position: relative;
+
+          }
+          .line3{
+            border-left: 3px solid rgba(255, 255, 255, 0.342);
+            position: absolute;
+            left: 4%;
+            top: 12%;
+            bottom: 12%;
+          }
+          .s3container2{
+            height: 100%;
+            position: relative;
+            
+          }
+          .s3container1 img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+          }
+          .s3container2 button{
+            position: absolute;
+            top: 50%;
+            left: 12%;
+            color: white;
+            background-color: rgb(0, 112, 163);
+            border: none;
+            padding: 5px 10px 5px 10px;
+            border-radius: 10px;
+          cursor: pointer;
+          padding: 1% 2% 1% 2% ;
+              font-size: 16px;
+          }
+          .title3{
+            position: absolute;
+              font-family: poppins;
+              margin: 0;
+              font-size: 32px;
+              font-weight: 900;
+              color: white;
+              z-index: 10;
+          }
+          .title3-div{
+            align-items: center;
+              justify-content: center;
+              display: flex;
+              width: 100%;
+              height: 100%;
+            
+          }
+          .desc3{
+            color: rgb(219, 219, 219);
+            font-family: poppins;
+            font-size: 15px;
+            position: absolute;
+            top: 32%;
+            left: 12%;
+            margin: 0;
+            margin-right: 48px;
+
+          }
+.service4{
+  background-color: rgba(0, 0, 0, 0.39);
+  height: 400px;
+  display: grid;
+  grid-template-columns: 2fr 1.5fr;
+  position: relative;
+  
+  }
+          .overlay4{
+            background-color: rgb(0, 0, 0);
+            width: 100%;
+            height: 100%;
+            opacity: 50%;
+            z-index: 9;
+            position: absolute;
+          }
+          .s4container1{
+            position: relative;
+
+          }
+          .s4container1 img{
+            width: 100%;
+            height: 100%;
+          }
+          .line4{
+            border-left: 3px solid rgba(255, 255, 255, 0.342);
+              position: absolute;
+              right: 4%;
+              top: 12%;
+              bottom: 12%;
+
+
+          }
+          .s4container2{
+            
+            height: 400px;
+            position: relative;
+          }
+          .s4container2 button{
+            position: absolute;
+            top: 50%;
+            right: 12%;
+            color: white;
+            background-color: rgb(0, 112, 163);
+            border: none;
+            padding: 5px 10px 5px 10px;
+            border-radius: 10px;
+            cursor: pointer;
+            padding: 1% 2% 1% 2% ;
+            font-size: 16px;
+          }
+
+          .title4{
+            position: absolute;
+              font-family: poppins;
+              margin: 0;
+              font-size: 32px;
+              font-weight: 900;
+              color: white;
+              z-index: 10;
+          }
+          .title4-div{
+            align-items: center;
+              justify-content: center;
+              display: flex;
+              width: 100%;
+              height: 100%;
+
+          }
+          .desc4{
+            color: rgb(219, 219, 219);
+            font-family: poppins;
+            font-size: 15px;
+            position: absolute;
+            top: 32%;
+            right: 12%;
+            margin: 0;
+            margin-left: 48px;
+
+          }
+          button:hover{
+            box-shadow: 0px 0px 20px rgb(0, 183, 255);
+          }

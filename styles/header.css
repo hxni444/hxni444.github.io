@@ -1,0 +1,88 @@
+body{
+  margin: 0px;
+  background:linear-gradient(0deg, rgba(0, 0, 0, 0.452), rgba(0, 0, 0, 0.685)), url(/images/bg.jpg); 
+  background-size: 1920px 1080px;
+  padding-top: 50px;
+  position: relative;
+  
+ 
+}
+
+.service-body{
+  margin: 0px;
+  background:linear-gradient(0deg, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.733)), url(/images/bg.jpg); 
+  background-size: 1920px 2000px;
+  padding-top: 50px;
+  position: relative;}
+  
+.about-body{
+ padding-top: 70px;
+}
+ 
+.faq-body{
+  padding-left:3%;
+  padding-right: 3%;
+}
+
+a{
+  text-decoration: none;
+  display: inline-block;
+}
+
+  
+
+.header-content{
+  display:flex ;
+  flex-direction: row;
+  justify-content:space-between; 
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.274);
+  position: fixed;
+  top:0;
+  left: 0;
+  right: 0;
+  backdrop-filter: blur(10px);
+  padding-top: 16px;
+  padding-bottom: 16px;
+  z-index: 100;
+}
+.postroman{
+  
+}
+.topMenu{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between ;
+  width: 580px;
+  margin-left: 400px;
+  flex-shrink: 0;
+  margin-right: 24px;
+}
+
+hr{
+  margin-top: 0px;
+}
+.header-content h4{
+  margin: 0;
+  font-family: lombok;
+  margin-left: 24px;
+  color: white;
+  font-size: 25px;
+  vertical-align: top;
+  cursor: pointer;
+  text-decoration: none;
+}
+.header-content h6{
+  
+  font-size: 14px;
+  letter-spacing: 2px;
+  margin: 0;
+  cursor: pointer;
+  color: white;
+  font-family: poppins;
+  transition: color 0.2s;
+ 
+}
+.header-content h6:hover{
+  color: rgb(201, 143, 255);
+}

@@ -1,0 +1,52 @@
+css
+body {
+    font-family: ;
+    line-height: 1.6;
+}
+h1{
+    text-align: center;
+    padding-bottom: 3%;
+}
+.faq-container {
+    color: white;
+    font-family: poppins;
+    padding-bottom: ;
+    
+}
+.faq-item a{
+    color: rgb(255, 28, 228);
+}
+.faq-post{
+    padding: 1%;
+    margin-top: 4%;
+    color: white;
+    font-family: poppins;
+    font-size: 24px;
+    background-color: rgb(97, 1, 114);
+    
+
+}
+.faq-post p{
+    margin: 0;
+
+}
+.comment{
+    resize: none;
+    height: 50px;
+    width: 50%;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+.post-button{
+    display: block;
+    background-color: white;
+    padding:.5% 2% .5% 2% ;
+    border-radius: 10px;
+    font-family: poppins;
+    cursor: pointer;
+
+}
+.post-button:hover{
+    background-color: rgb(225, 225, 225);
+}

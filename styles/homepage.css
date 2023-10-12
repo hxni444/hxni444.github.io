@@ -1,0 +1,88 @@
+
+ 
+ .main-container{
+  display: flex;
+  flex-direction: column; 
+  text-align: center;
+  margin-top: 200px;
+
+  
+  
+ 
+
+}
+.big-text{
+  font-family: lombok;
+  font-size: 115px;
+  color: white;
+  margin: 0px;
+  margin-bottom: 48px;
+  
+  
+}
+.small-text{  
+  font-family:poppins;
+  font-size: 16px;
+  color: white;
+  margin-top:20px;
+
+
+  
+}
+.cTA{
+  text-align: center;
+  margin-top: 32px;
+  margin-bottom: 10%;
+ 
+}
+.cTAbutton{
+  color: white;
+  background-color: rgb(79, 6, 125);
+  border: none;
+  border-radius: 8px;
+  padding: 4px 24px 4px 24px;
+  font-family: poppins;
+  
+  z-index: 5;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+.cTAbutton:hover{
+  box-shadow: 0px 0px 20px rgb(223, 171, 255);
+}
+
+
+.logo{
+  
+  top: 27%;
+  width:100% ;
+  position: absolute;
+  display: flex;
+  z-index: 2;
+  justify-content: center;
+
+  
+}
+.logo-img{
+  
+  width: 25%;
+  opacity: 0.2;
+}
+.footer{
+  
+  background-color: black;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+ 
+}
+.copy-right{
+  font-size: 12px;
+  color: rgb(209, 209, 209);
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  text-align: center; 
+  
+}

@@ -1,0 +1,74 @@
+.selection-menu{
+    font-family: poppins;
+    background-color: rgb(255, 255, 255);
+    color: rgb(149, 1, 183);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    transition: all .2s;
+    
+}
+.selection-menu:hover{
+    color: rgb(0, 0, 0);
+}
+.divider{
+    display: flex;
+    justify-content: center;
+}
+.image-selection{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+.video-selection{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+.images-container{
+    
+    margin-top: 1%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 1%;
+    row-gap: 1%;
+    margin-bottom: 3%;
+    
+}
+.images-container-func{   
+   display: none; 
+}
+.images-container img{
+    width: 100%;
+}
+.images-container :nth-child(5), :nth-child(6)
+,:nth-child(7),:nth-child(8){
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.vdo-container{
+    display: none;
+    margin-top: 1%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    column-gap: 1%;
+}
+.vdo-container video{
+    display: none;
+    width: 100%;
+}
+
+.vdo-container-func{
+    
+    margin-top: 1%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    column-gap: 1%;
+}
+.vdo-container-func video{
+    
+    width: 100%;
+}

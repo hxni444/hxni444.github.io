@@ -1,0 +1,79 @@
+.contact-container{
+ position: fixed;
+ top: 250px;
+ left:35%;
+ z-index: 20;
+ transform: scale(0);
+}
+.popup{
+  position: fixed;
+ top: 250px;
+ left:35%;
+ z-index: 20;
+ transform: scale(1);
+ transition: transform 0.3s;
+}
+.contact{
+  width: 400px;
+  height: 140px;
+  background-color: white;
+  position: relative;
+  padding-top: 24px;
+  border-radius: 10px;
+}
+.contact-title{
+  position: absolute;
+  top: -5%;
+  left: 34%;
+  background-color: white;
+  border-radius: 10px;
+  text-align: center;
+  font-family: poppins;
+  font-size: 24px;
+  margin: 0;
+  font-weight: 900;
+  padding: 0px 8px 0px 8px;
+  
+}
+.contact-1{
+  background-color: aqua;
+}
+.contact-desc{
+  padding-top: 8%;
+  margin-top: 50px;
+  font-family: poppins;
+  font-size: 12px;
+  text-align: center;
+  margin:0;
+}
+.contact-textbox{
+  border: solid;
+  border-width: 1px;
+  border-radius: 8px;
+  height: 24px;
+  position: absolute;
+  left: 10%;
+  right: 10%;
+}
+.socials{
+  padding-top: 44px;
+  width: 100%;
+  
+  display: flex;
+  justify-content: center;
+  
+}
+.socials img{
+  width: 30px;
+  padding: 0px 8px 8px;
+}
+.socials a{
+  height: 30px;
+}
+.exit{
+  color: rgb(0, 89, 255);
+  position: absolute;
+  top: -10px;
+  right: 10px;
+  cursor: pointer;
+}

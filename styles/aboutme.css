@@ -1,0 +1,81 @@
+.about-title-container{
+    border: 1px solid white;
+    
+}
+.about-title{
+  font-family:poppins;
+  letter-spacing: 4px;
+  color: white;
+  font-size: 32px;
+  text-align:center;
+  margin: 0px; 
+}
+.about-container{
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;  
+    align-items: center; 
+    margin-bottom: 5%;
+}
+
+       
+.about-container p{
+    padding: 2%;
+    color: white;
+    font-family: poppins;
+    text-align: center;
+}
+.about-logo{
+    width: 16%;
+    padding: 4%;
+}
+
+.about-socials{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    padding-bottom: 5%;
+    padding-right: 10%;
+    padding-left: 10%;
+    
+}
+.about-socials P{
+    margin: 0;
+    font-family: Montserrat;
+    font-weight: bolder;
+
+}
+.about-socials img{
+    width:100%
+}
+
+.about-socials a{
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.about-insta{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ width: 50%;
+}
+.about-insta p{
+    
+}
+.about-whatsapp{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ width: 50%;
+
+
+
+}
+.about-mail{
+display: flex;
+ flex-direction: column;
+ align-items: center;
+ width: 50%;
+    
+}
