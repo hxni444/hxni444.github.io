@@ -54,7 +54,7 @@ a{
   flex-direction: row;
   justify-content: space-between ;
   width: 580px;
-  margin-left: 400px;
+  
   flex-shrink: 0;
   margin-right: 24px;
 }
